@@ -1,5 +1,7 @@
 # GBizID-es
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 A simple server-side code for logging in with [gBizID](https://gbiz-id.go.jp/top/) for Deno.
 
 ## Requirements

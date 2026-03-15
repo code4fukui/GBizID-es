@@ -1,13 +1,10 @@
 # GBizID-es
 
-A simple server-side code for logging in with [gBizID](https://gbiz-id.go.jp/top/) for Deno.
-
-## デモ
-デモはありません。
+gBizIDを使ったログイン機能を提供するDenoのサーバーサイドコードです。
 
 ## 機能
-- gBizIDを使ったログイン機能を提供します。
-- 法人番号を取得することができます。
+- gBizIDを使ったログイン機能
+- 法人番号の取得
 
 ## 必要環境
 - gBizID Primeアカウントが必要です。
