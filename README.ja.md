@@ -2,11 +2,18 @@
 
 A simple server-side code for logging in with [gBizID](https://gbiz-id.go.jp/top/) for Deno.
 
-## Requirements
-You need to apply for a gBizID Prime account (currently only for government and local government services).
+## デモ
+デモはありません。
 
-## Usage
-Set the following environment variables:
+## 機能
+- gBizIDを使ったログイン機能を提供します。
+- 法人番号を取得することができます。
+
+## 必要環境
+- gBizID Primeアカウントが必要です。
+
+## 使い方
+以下の環境変数を設定してください:
 
 ```
 export GBIZID_CLIENT_ID=xxxx
@@ -17,11 +24,11 @@ export GBIZID_ENDPOINT=https://stg.gbiz-id.go.jp/
 #export GBIZID_ENDPOINT=https://gbiz-id.go.jp/
 ```
 
-Then, run the server:
+その後、サーバーを起動してください:
 
 ```
 deno run -A gbizid-server.js [port]
 ```
 
-## License
+## ライセンス
 MIT License
