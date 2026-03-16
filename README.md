@@ -26,4 +26,4 @@ deno run -A gbizid-server.js [port]
 ```
 
 ## License
-MIT License
+MIT License — see [LICENSE](LICENSE).
